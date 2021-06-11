@@ -48,6 +48,7 @@ class OwnerController {
 	public OwnerController(OwnerRepository clinicService, VisitRepository visits) {
 		this.owners = clinicService;
 		this.visits = visits;
+		/*This is a test code*/
 	}
 
 	@InitBinder
